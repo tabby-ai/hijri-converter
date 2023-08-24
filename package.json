@@ -1,5 +1,5 @@
 {
-  "name": "@tabby.ai/hijri-converter",
+  "name": "@tabby_ai/hijri-converter",
   "version": "1.0.5",
   "description": "Typescript port of an accurate python Hijri-Gregorian dates converter based on the Umm al-Qura calendar: https://github.com/mhalshehri/hijri-converter",
   "contributors": [
@@ -25,7 +25,7 @@
     "saudi-arabia"
   ],
   "bugs": {
-    "url": "https://gitlab.com/tabby.ai/apps/hijri-converter/issues"
+    "url": "https://github.com/tabby-ai/hijri-converter/issues"
   },
   "scripts": {
     "test": "jest && node ./tests/importCommonJS.test.cjs && node ./tests/importEsm.test.mjs",
