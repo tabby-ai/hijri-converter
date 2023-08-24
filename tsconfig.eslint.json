@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "tests/**/*.ts",
+    "tests/**/*.js",
+    "jest.config.js",
+    "babel.config.js",
+    ".eslintrc.js",
+    ".prettierrc.js"
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "noEmit": true
+  }
+}
