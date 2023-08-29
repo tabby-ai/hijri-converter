@@ -1,4 +1,4 @@
-# hijri-converter
+# @tabby_ai/hijri-converter
 
 A Javascript package to convert accurately between Hijri and Gregorian dates using the Umm al-Qura calendar.
 
@@ -26,14 +26,14 @@ Therefore, it has the same accuracy and limitations.
 ## Installation
 
 ```bash
-npm install @tabby.ai/hijri-converter
+npm install @tabby_ai/hijri-converter
 ```
 
 ## Basic usage
 
 ```javascript
 // CommonJS modules
-const { gregorianToHijri } = require('@tabby.ai/hijri-converter');
+const { gregorianToHijri } = require('@tabby_ai/hijri-converter');
 
 const date = new Date();
 const hijriDate = gregorianToHijri({
@@ -45,7 +45,7 @@ const hijriDate = gregorianToHijri({
 console.log(hijriDate); // { year: 1444, month: 7, day: 15 }
 
 // or ESModules
-import { hijriToGregorian } from '@tabby.ai/hijri-converter';
+import { hijriToGregorian } from '@tabby_ai/hijri-converter';
 
 const gregorianDate = hijriToGregorian({ year: 1444, month: 7, day: 15 });
 
