@@ -9,24 +9,12 @@
       "url": "https://github.com/dimazollo"
     }
   ],
-  "license": "MIT",
-  "keywords": [
-    "hijri",
-    "hijriah",
-    "date",
-    "converter",
-    "conversion",
-    "islamic",
-    "gregorian",
-    "ummalqura",
-    "ummulqura",
-    "Umm al-Qura",
-    "arabic",
-    "saudi-arabia"
+  "main": "dist/index.js",
+  "files": [
+    "dist"
   ],
-  "bugs": {
-    "url": "https://github.com/tabby-ai/hijri-converter/issues"
-  },
+  "repository": "https://github.com/tabby-ai/hijri-converter/",
+  "bugs": "https://github.com/tabby-ai/hijri-converter/issues",
   "scripts": {
     "test": "jest && node ./tests/importCommonJS.test.cjs && node ./tests/importEsm.test.mjs",
     "clean": "rimraf ./dist",
@@ -52,10 +40,21 @@
   },
   "type": "commonjs",
   "private": false,
-  "main": "dist/index.js",
-  "files": [
-    "dist"
+  "keywords": [
+    "hijri",
+    "hijriah",
+    "date",
+    "converter",
+    "conversion",
+    "islamic",
+    "gregorian",
+    "ummalqura",
+    "ummulqura",
+    "Umm al-Qura",
+    "arabic",
+    "saudi-arabia"
   ],
+  "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
   }
